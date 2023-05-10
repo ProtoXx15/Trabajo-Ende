@@ -1,0 +1,16 @@
+def or_bit_a_bit(x, y):
+    return x | y
+
+def or_exclusivo (x, y):
+    return x ^ y
+
+def and_bit (x, y):
+    return x & y
+
+def desplaza_izq (x, y):
+    return x << y
+
+def desplaza_der (x, y):
+    return x >> y
+def invertidos (x):
+    return ~x

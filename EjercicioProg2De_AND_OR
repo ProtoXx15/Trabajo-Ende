@@ -1,0 +1,8 @@
+from ejercicioProgDe_AND_OR import or_bit_a_bit as operacion_or, or_exclusivo as operacion_exclusivo, and_bit as operacion_and, desplaza_izq as operacion_desp_izq, desplaza_der as operacion_desp_der, invertidos as invertidos
+
+print(" El resultado de | es:", operacion_or(7,2))
+print(" El resultado de ^ es:", operacion_exclusivo(7,2))
+print(" El resultado de & es:", operacion_and(7,2))
+print(" El resultado de << es:", operacion_desp_izq(7,2))
+print(" El resultado de >> es:", operacion_desp_der(7,2))
+print(" El resultado de ~ es:", invertidos(7))
